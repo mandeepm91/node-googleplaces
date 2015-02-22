@@ -1,0 +1,36 @@
+{
+  "name": "node-googleplaces",
+  "version": "0.0.1",
+  "description": "A Node.js wrapper for google places API with optional support for caching detailed results on redis server",
+  "main": "index.js",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "redis": "^0.12.1",
+    "request": "^2.53.0",
+    "url": "^0.10.2"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "map",
+    "geo",
+    "google",
+    "api",
+    "places"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mandeepm91/node-googleplaces.git"
+  },
+  "author": "Mandeep Singh Gulati <mandeep.s.gulati@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mandeepm91/node-googleplaces/issues"
+  },
+  "homepage": "https://github.com/mandeepm91/node-googleplaces"
+}

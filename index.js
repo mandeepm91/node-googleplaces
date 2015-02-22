@@ -6,7 +6,7 @@ var qs = require('querystring'),
   SearchCache Setup
   This module caches the results on your locally running redis server
   If redis is not running on your machine, it will not fail however.
-  If redis is running on the same machine as this node module, you 
+  If redis is running on the same machine as this node server, you 
   might want to leverage the caching benefits by using the flag
   useCache while fetching place details.
 */
